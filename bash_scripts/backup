@@ -1,0 +1,20 @@
+#! /bin/sh
+
+# --- backup ---:
+# this packs all data for backup and places them to local and remote backup directories
+
+# directory names
+LOCAL=~/eniac_archiv
+REMOTE=zoppke@troll.inf.fu-berlin.de:eniac_archiv
+
+# compute date-string
+ARCHIVE=$LOCAL/$(date "+%Y%m%d-%H%M").eniac.tgz
+
+# pack eniac workspace into local archive
+cd ~/workspace
+tar -czf $ARCHIVE eniac
+
+# copy local archive to remote destination
+scp $ARCHIVE $REMOTE
+
+exit 0

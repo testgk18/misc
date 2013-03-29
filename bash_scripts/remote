@@ -1,0 +1,20 @@
+#! /bin/sh
+
+# --- remote ---
+# sends html- and jar-files to the remote location.
+
+# remote location
+REMOTE=zoppke@troll.inf.fu-berlin.de:/import/userpages/zoppke/public_html/D/
+TEST=~/workspace/eniac/test
+
+# copy jarfiles to fu-berlin
+cd $TEST
+scp $(find . -name '*.jar' -o -name '*.html') $REMOTE
+
+# kill running mozilla process if any
+killall -9 mozilla-bin
+
+# open mozilla to test
+mozilla http://page.inf.fu-berlin.de/~zoppke/D/eniac.html &
+
+exit 0

@@ -1,0 +1,21 @@
+#! /bin/sh
+
+# --- stats ---
+# shows statistics about total number of code-lines and number of classes
+
+JAVA_FILES=`find ~/workspace/eniac -name '*.java'`
+echo $JAVA_FILES | wc
+cat $JAVA_FILES | wc
+
+XML_FILES=`find ~/workspace/eniac -name '*.xml'`
+echo $XML_FILES | wc
+cat $XML_FILES | wc
+
+GIFS=`find ~/workspace/eniac -name '*.gif'`
+echo $GIFS | wc
+
+FILES=`find ~/workspace/eniac -name '*.java' -o -name '*.xml' -o -name 'documentation.txt'`
+echo $FILES | wc
+cat $FILES | wc
+
+exit 0

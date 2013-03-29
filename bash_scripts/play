@@ -1,0 +1,15 @@
+#! /bin/sh
+# plays randomly all mp3 files of my mp3 directory
+
+# kill old mpg321-process, if any
+killall mpg321
+
+# remove old temp file, if any
+rm temp
+
+# create new temp file
+find /home/zoppke/shar/share/mp3 -name '*.mp3' > temp
+
+# start playing mp3
+mpg321 --list temp -z &
+
