@@ -1,0 +1,2 @@
+curl -k -u "kinnla:passpasspasspasspasspass" -d "{\"name\":\"furure\",\"color\":\"8e8e11\"}" https://api.github.com/repos/kinnla/eniac/labels
+
