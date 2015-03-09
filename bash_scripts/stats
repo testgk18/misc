@@ -3,19 +3,36 @@
 # --- stats ---
 # shows statistics about total number of code-lines and number of classes
 
-JAVA_FILES=`find ~/workspace/eniac -name '*.java'`
-echo $JAVA_FILES | wc
-cat $JAVA_FILES | wc
+# assert correct usage
+if [ "$1" != "-d" ] || [ "$2" == "" ]
+  then
+    echo "usage: stats -d rootdir ext1 ext2 ext3 ..."
+    exit 0
+fi
 
-XML_FILES=`find ~/workspace/eniac -name '*.xml'`
-echo $XML_FILES | wc
-cat $XML_FILES | wc
+# save rootdir parameter
+ROOTDIR=$2
 
-GIFS=`find ~/workspace/eniac -name '*.gif'`
-echo $GIFS | wc
+# print stats for *
+echo "type \t #files \t #lines" 
+FILELIST=`find $ROOTDIR -type f`
+FILES=`echo $FILELIST | wc -w`
+LINES=`cat "$FILELIST" | wc -l`
+echo "* \t $FILES \t $LINES"
 
-FILES=`find ~/workspace/eniac -name '*.java' -o -name '*.xml' -o -name 'documentation.txt'`
-echo $FILES | wc
-cat $FILES | wc
+# print stats for user patterns
+while [ "$3" != "" ]
+  do
+    FILES="0"
+    LINES="0"
+    FILELIST=`find $ROOTDIR -type f -name $3`
+    if [ "$FILELIST" != "" ]
+      then
+        FILES=`echo $FILELIST | wc -w`
+        LINES=`cat $FILELIST | wc -l`
+    fi
+    echo "$3 \t $FILES \t $LINES"
+    shift
+done
 
 exit 0
