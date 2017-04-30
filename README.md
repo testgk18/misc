@@ -1,3 +1,3 @@
-tools
+miscellaneous tools and snippets
 =====
-small utils, snippets which I want to keep in my toolbox
+
