@@ -23,7 +23,7 @@ A stub for a civilization clone in Java.
 
 ## einstein
 A Java applet where people could create digital collages related to Einstein.
-Created for the "Einstein Jahr 2004". Text and Images by Anja Neuser.
+Created for the "Einstein Jahr 2005". Text and Images by Anja Neuser.
 
 ## erinnerung
 A Java applet implementing the game "Memory". Einreichung auf die Preisfrage 2001 der Jungen Akademie:
