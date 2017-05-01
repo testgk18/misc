@@ -26,7 +26,7 @@ A stub for a civilization clone in Java.
 
 ## einstein
 A Java applet where people could create digital collages related to Einstein.
-Created for the "Einstein Jahr 2005". Text and Images by Anja Neuser.
+Created for the "Einstein Jahr 2005". Text and Images by Anja Witte.
 http://einsteinjahr.de
 
 ## erinnerung
