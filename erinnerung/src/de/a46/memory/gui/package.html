@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p>Package <font face="Courier New, Courier, mono" size="-1">de.a46.memory.gui</font>
+  contains all gui functionality. The components are structured as a tree, where
+  class <font face="Courier New, Courier, mono" size="-1">MainPanel</font> is
+  the root component, representing the whole plane of 720 x 502 pixel. There are
+  three child components implemented by class <font size="-1" face="Courier New, Courier, mono">ButtonbarPanel</font>,
+  by class <font face="Courier New, Courier, mono" size="-1">LeftPanel</font>
+  and by abstract class <font face="Courier New, Courier, mono" size="-1">RightPanel</font>.
+  In correspondence to user action a concrete instance of class <font face="Courier New, Courier, mono" size="-1">FieldPanel</font>,
+  class <font face="Courier New, Courier, mono" size="-1">HelpPanel</font> or
+  class <font face="Courier New, Courier, mono" size="-1">ExitPanel</font> is
+  shown, all subclassing <font face="Courier New, Courier, mono" size="-1">RightPanel</font>.
+  All resources the gui needs are defined in interface <i><font face="Courier New, Courier, mono" size="-1">RessourceContainer</font></i>.</p>
+<p>Also a few basic components are defined. Abstract class <font face="Courier New, Courier, mono" size="-1">MPanel</font>
+  defines a component that casts events when the mouse enters, clicks or exits.
+  Its subclass <font face="Courier New, Courier, mono" size="-1">MButton</font>
+  acts like a common <font face="Courier New, Courier, mono" size="-1">java.awt.Button</font>,
+  but displayes images representing eg. the pressed-state or the disabled-state.
+  <font face="Courier New, Courier, mono" size="-1">MPanel</font> is also subclassed
+  by <font face="Courier New, Courier, mono" size="-1">MultiImagePanel</font>,
+  that displays one image from an array.</p>
+<p>See the <a href="javascript:openWindow('class_diagram.html', 'classdia')">class
+  diagram</a> for this package.</p>
+<SCRIPT LANGUAGE="JavaScript">
+  	<!--
+  	function openWindow(link, windowName) {
+  	window.open(link, windowName);
+  	}
+  	//-->
+</SCRIPT>
+</body>
+</html>

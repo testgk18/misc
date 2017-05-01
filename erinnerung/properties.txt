@@ -1,0 +1,32 @@
+# memory.properties
+
+# button imagages, one line for five states
+# syntax is "NAME=enabled disabled rollover pressed dragged"
+# five files required 
+
+# newgame button in the ButtonBar (5)
+NEWGAME_IMAGES=Neues-Spiel.gif Neues-Spiel-Rollover3.gif Neues-Spiel-Rollover3.gif Neues-Spiel-Rollover3.gif Neues-Spiel-Rollover3.gif
+
+# help button in the ButtonBar (5)
+HELP_IMAGES=Hilfe.gif Hilfe-Rollover3.gif Hilfe-Rollover3.gif Hilfe-Rollover3.gif Hilfe-Rollover3.gif
+
+# exit button in the ButtonBar (5)
+EXIT_IMAGES=Beenden.gif Beenden-Rollover3.gif Beenden-Rollover3.gif Beenden-Rollover3.gif Beenden-Rollover3.gif
+
+
+# others
+
+# Trialslabel in the buttonbar (1)
+TRIALS_IMAGES=Zaehler.gif
+
+# Counter numerals, small gifs (10)
+NUMERAL_IMAGES=Null.gif EinsNeu.gif Zwei.gif Drei.gif Vier.gif Fuenf.gif Sechs.gif Sieben.gif Acht.gif Neun.gif 
+
+# Background images to be freed by finding pairs of cards (n)
+BACKGROUND_IMAGES=DieDaemonen.jpg Flugchidee.jpg AnDerSchwelleDesLebens.gif EmbryoInfraredSky.jpg MomentDerVerzweiflung.jpg Na-Logisch-Bernd.gif
+
+# Welcome image, shown during loading the others (1)
+WELCOME_IMAGES=StartbildFischkopfMitText.jpg
+
+# hiddencard images (7) as "NAME=enabled disabled rollover pressed dragged highlight_upper highlight_lower" (7)
+HIDDENCARD_IMAGES=KleineGrueneKarteFertig.gif KleineGrueneKarteFertig.gif KleineRoteKarteFertig.gif kleineWeinroteKarteFertig.gif kleineWeinroteKarteFertig.gif ObenOhneO.gif UntenOhneU.gif

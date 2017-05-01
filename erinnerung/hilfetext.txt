@@ -1,0 +1,19 @@
+Erinnerung ist ein Computerspiel, das dem Gesellschaftsspiel
+Memory ähnelt. 18 Paare von Schmerzkarten zeigen Ihnen eine
+grüne Rückseite. Finden Sie alle Paare gleicher Schmerzen.
+
+Wählen Sie eine Karte durch Mausklick. Die verborgene Seite
+erscheint nun links oben als Schmerz. Den Ort im Feld markiert
+ein Pfeil. Klicken Sie dann auf eine weitere Karte. Deren
+Schmerz erscheint links unten.
+
+Sind die aufgedecken Schmerzen gleich, so haben Sie ein Paar
+gefunden. Klicken Sie auf einen Schmerz, und die beiden Karten
+verschwinden. Suchen Sie nach weiteren Paaren.
+
+Sind die aufgedeckten Schmerzen verschieden, so zählt dies als
+Fehlversuch. Merken Sie sich die Orte im Feld. Klicken Sie auf
+einen Schmerz, um die Karten wieder zu verdecken.
+
+Achten Sie auch darauf, welche Schmerzen Sie verdrängen.
+Diese bleiben schwer in Erinnerung.

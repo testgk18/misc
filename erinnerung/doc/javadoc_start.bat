@@ -1,0 +1,1 @@
+C:\JBuilder4\jdk1.3\bin\javadoc -windowtitle "Erinnerung. Api specification." -header "Erinnerung - memory" -doctitle "<b>Erinnerung<br>Api specification</b>" -footer "Erinnerung - memory" -author -version -overview overview.html -sourcepath d:\java\projects\Memory\src de.a46.memory de.a46.memory.gui > javadoc_protocol.txt

@@ -1,0 +1,41 @@
+# list of multimedia data included to memory
+# syntax is "grafic-file"<spaces/tabs>"audio-file".
+# minimum number of files is 18
+AtompilzTypoDigimarc.gif		preview.wav
+CFaserDigimarc.gif			preview.wav
+EinsamDigimarc.gif			preview.wav
+GhirnDigimarc.gif			preview.wav
+IstDerSchmerzInDirDigimarc.gif		preview.wav
+SchwesterDerLustDigimarc.gif		preview.wav
+SpaltDigimarc.gif			preview.wav
+VerDigimarc.gif				preview.wav
+EuropaBearbeitet.gif			preview.wav
+GeisterzeichnungDigimarc.gif		preview.wav
+GruenewaldKreuzigungFertig.jpg		preview.wav
+MarquisDeSadeFertig.gif			preview.wav
+PulsaderFertig.jpg			preview.wav
+SchmetterlingskindDigimarc.gif		preview.wav
+SpritzeDigimarc.gif			preview.wav
+TreppeRuntergefallen.gif		preview.wav
+FragezCopyr2001kyouGMXnet.jpg		preview.wav
+Pfeil-HerzDigimarc.jpg			preview.wav
+GeburtGifZensiert.gif			preview.wav
+Tabasco.gif				preview.wav
+NeuRoh.jpg				preview.wav
+landmine.gif				preview.wav
+Kapseleinschlag.jpg			preview.wav
+StacheldrahtBauch.gif			preview.wav
+Frau-Massband.gif			preview.wav
+Rueckenschmerz.jpg			preview.wav
+Scherbengesicht.gif			preview.wav
+Maske.gif				preview.wav
+Bleistift-Beisserin.jpg			preview.wav
+Fieber.jpg				preview.wav
+R-Schaedel-Haende.jpg			preview.wav
+Steckdose.gif				preview.wav
+Frau-mit-Metallhalskrause.gif		preview.wav
+Babyschrei.jpg				preview.wav
+Rohrschacht.gif				preview.wav
+Gleichgueltigkeit.gif			preview.wav
+3D-Uhr.jpg				preview.wav
+#eof

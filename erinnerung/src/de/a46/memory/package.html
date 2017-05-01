@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p>Package <font face="Courier New, Courier, mono" size="-1">de.a46.memory</font>
+  includes all classes containing technical functionality for the memory game.
+  Main class is <font size="-1" face="Courier New, Courier, mono">Starter</font>
+  which initializes the program. Also essential are class <font face="Courier New, Courier, mono" size="-1">Loader</font>,
+  which reads all external resources, and class <font size="-1" face="Courier New, Courier, mono">Game</font>,
+  which acts like a final state machine and controls the moves in the game.</p>
+<p>The connection between the layer represented by this package and the gui layer
+  is made by two interfaces and one reference. </p>
+<ul>
+  <li>Interface <font face="Courier New, Courier, mono" size="-1">de.a46.memory.gui.<i>RessourceContainer</i></font>
+    (implemented by class <font size="-1" face="Courier New, Courier, mono">Loader</font>)
+    defines methods to provide images, audioclips and text, as needed by differnend
+    gui-classes, but also by class <font face="Courier New, Courier, mono" size="-1">Game</font>
+    (audioclips) and class <font face="Courier New, Courier, mono" size="-1">Starter</font>
+    (welcomeImage). </li>
+  <li>Interface <font size="-1" face="Courier New, Courier, mono">de.a46.memory.<i>UserActionListener</i></font>
+    defines methods representing all possible user actions that can happen to
+    the gui and must be responsed by members of this package.</li>
+  <li>In class <font face="Courier New, Courier, mono" size="-1">Starter</font>,
+    that is responsible to initialize all components, there is a direct reference
+    to class <font size="-1" face="Courier New, Courier, mono">de.a46.memory.gui.MainPanel</font>.</li>
+</ul>
+<p>See the <a href="javascript:openWindow('class_diagram.html', 'classdia')">class
+  diagram</a> for this package.</p>
+  <SCRIPT LANGUAGE="JavaScript">
+  	<!--
+  	function openWindow(link, windowName) {
+  	window.open(link, windowName);
+  	}
+  	//-->
+</SCRIPT>
+</body>
+</html>
