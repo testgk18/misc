@@ -1,0 +1,136 @@
+\documentclass[10pt,a4paper,oneside]{article}
+
+\usepackage{ngerman}
+\usepackage[T1]{fontenc}
+\usepackage[applemac]{inputenc}
+\usepackage{textcomp}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{eurosym}
+\usepackage[automark]{scrpage2}
+\usepackage{setspace}
+
+\pagestyle{scrheadings}
+
+
+\oddsidemargin0cm
+\textwidth16cm
+\topmargin2.5cm
+\parindent0cm
+
+\ihead[]{Kwan Um Zen Schule Deutschland e.V.} 
+
+\def\chopline #1;#2;#3;#4;#5;#6;#7;#8 \\ {
+  \def\name{#1}
+  \def\strasse{#2}
+  \def\ort{#3}
+  \def\land{#4}
+  \def\beitragZahl{#5}
+  \def\beitragWorte{#6}
+  \def\spendeZahl{#7}
+  \def\spendeWorte{#8}
+ }
+ 
+ \newif\ifmore \moretrue
+
+
+\sloppy
+\begin{document}
+
+ \newread\quelle
+ \openin\quelle=Zuwendungen.csv
+ 
+ \loop
+  \read\quelle to \zeile
+  \ifeof\quelle
+   \global\morefalse
+  \else
+   \expandafter\chopline\zeile\\
+
+\noindent
+
+\begin{picture}(0,0)
+\put(270,-65){\includegraphics[scale=0.45]{Logo}}
+\end{picture}
+
+
+\name\\
+\strasse\\
+\ort\\
+\land
+\vspace{2.0cm}
+
+\begin{tabular}{|p{16cm}|}\hline
+{\scriptsize Aussteller (Bezeichnung und Anschrift der steuerbeg"unstigten Einrichtung)}\\ 
+Kwan Um Zen Schule Deutschland e.V., Gottschedstr. 4, 13357 Berlin\\
+\hline
+\end{tabular}
+
+\bigskip
+
+\begin{large}
+\bfseries
+Best"atigung "uber Geldzuwendungen/Mitgliedsbeitrag
+\end{large}
+
+im Sinne des \S 10b des Einkommensteuergesetzes an eine der in \S 5 Abs.~1 Nr.~9 des K"orperschaftssteuergesetz bezeichneten K"orperschaften, Personenvereinigungen oder Verm"ogensmassen
+
+\bigskip
+
+\begin{tabular}{|p{16cm}|}\hline
+{\scriptsize Name und Anschrift des/der Zuwendenden:}\\
+\name\\
+\strasse, \ort
+\ifthenelse{\equal{\land}{}}{}{, \land}\\
+\hline
+\end{tabular}
+
+\bigskip
+
+\begin{tabular}{|p{5.1cm}|p{5.0cm}|p{5.1cm}|}\hline
+{\scriptsize } & {\scriptsize Betrag der Zuwendung - in Ziffern -} & {\scriptsize - in Buchstaben -} \\
+Mitgliedsbeitrag f"ur 2012: & \euro{}\ **\beitragZahl** & \beitragWorte \\
+\hline
+Geldzuwendung in 2012: & \euro{}\ **\spendeZahl** & \spendeWorte \\
+\hline
+\end{tabular}
+
+\bigskip
+
+Es handelt sich um den Verzicht von Aufwendungen\hspace{1cm}Ja {\framebox(10,10){~}} \hspace{0.5cm} Nein  {\framebox(10,10){x}}
+\bigskip
+
+{\framebox(10,10){x}
+ Wir sind wegen F"orderung der Religion nach dem letzten uns zugegangenen Freistellungsbescheid des Finanzamt I f"ur K"orperschaften, Berlin, Steuer-Nr.\/ 27/656/52888 vom 17.9.2012 f"ur die Jahre 2009 - 2011 nach \S 5 Abs.~1 Nr.~9 des K"orperschaftssteuergesetzes von der K"orperschaftsteuer und nach \S 3 Nr.~6 des Gewerbesteuergesetzes von der Gewerbesteuer befreit.
+}
+\bigskip
+
+\begin{tabular}
+{|p{16cm}|}\hline
+Es wird best"atigt, dass die Zuwendungen nur zur F"orderung der Religion verwendet werden.\\
+\hline
+\end{tabular}
+
+\vspace{1cm}
+Berlin, den \today\\
+\vspace{1cm}\\
+\line(1,0){150} \hspace{5.5cm} \line(1,0){150}\\
+Dr. Heike Wildemann, Vorsitzende \hspace{5.3cm} Till Zoppke, Kassenwart
+\\
+\vspace{0.5cm}
+
+\begin{scriptsize}
+{\bfseries Hinweis:}\\
+Wer vors"atzlich oder grob fahrl"assig eine unrichtige Zuwendungsbest"atigung erstellt oder wer veranlasst, dass Zuwendungen nicht zu den in der Zuwendungsbest"atigung angegebenen steuerbeg"unstigten Zwecken verwendet werden, haftet f"ur die Steuer, die dem Fiskus durch einen etwaigen Abzug der Zuwendungen beim Zuwendenden entgeht (\S 10 b Abs.~4 EstG, \S 9 Abs.~3, KStG, \S 9 Nr. 5 GewStG).\\
+
+\begin{spacing}{1}Diese Best"atigung wird nicht als Nachweis f"ur die steuerliche Ber"ucksichtigung der Zuwendung anerkannt, wenn das Datum des Freistellungsbescheides l"anger als 5 Jahre  bzw. das Datum der vorläufigen Bescheinigung länger als 3 Jahre seit Ausstellung der Bestätigung zurückliegt (BMF 
+vom 15.12.1994 - BStBl I S.~884).
+\end{spacing}
+\end{scriptsize}
+
+\fi
+
+\ifmore\repeat
+\closein\quelle
+\end{document} 
+
