@@ -1,6 +1,6 @@
-package proinf.geo;
+package geo;
 
-import proinf.geo.gui.GeoFrame;
+import geo.gui.GeoFrame;
 
 public class Main {
 

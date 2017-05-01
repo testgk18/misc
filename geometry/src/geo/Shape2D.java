@@ -1,4 +1,4 @@
-package proinf.geo;
+package geo;
 
 abstract class Shape2D implements IShape {
 

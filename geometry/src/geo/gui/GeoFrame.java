@@ -1,9 +1,9 @@
-package proinf.geo.gui;
+package geo.gui;
 
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 
-import proinf.geo.IShape;
+import geo.IShape;
 
 public class GeoFrame extends JFrame{
 

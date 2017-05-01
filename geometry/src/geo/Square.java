@@ -1,4 +1,4 @@
-package proinf.geo;
+package geo;
 
 public class Square extends Rectangle {
 

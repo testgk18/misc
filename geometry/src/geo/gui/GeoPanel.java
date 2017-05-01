@@ -1,4 +1,4 @@
-package proinf.geo.gui;
+package geo.gui;
 
 import java.awt.Graphics;
 import java.awt.event.MouseAdapter;
@@ -8,8 +8,8 @@ import java.util.List;
 
 import javax.swing.JPanel;
 
-import proinf.geo.IShape;
-import proinf.geo.Point;
+import geo.IShape;
+import geo.Point;
 
 public class GeoPanel extends JPanel {
 

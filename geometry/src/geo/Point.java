@@ -1,4 +1,4 @@
-package proinf.geo;
+package geo;
 
 import java.awt.Graphics;
 
