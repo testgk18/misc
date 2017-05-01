@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timeline>
+<timeline name="history" title="Die Geschichte">
+	<entry>
+		<name>Bismarck</name>
+		<date>1871</date>
+		<image>bismarck.jpg</image>
+		<description>Gründung des Deutschen Reiches</description>
+	</entry>
+	<entry>
+		<name>Attentat auf Thronfolger</name>
+		<date>1914</date>
+		<image>attentat.gif</image>
+		<description>Der Österreichische Thronfolger wird erschossen, was den 
+			1. Weltrieg auslöst.</description>
+	</entry>
+	<entry>
+		<name>Oktoberrevolution</name>
+		<date>1917</date>
+		<!--image>accu_heaters_off.gif</image-->
+		<image>lenin.jpg</image>
+		<description>Lenin ruft die Sowjetunion aus.</description>
+	</entry>
+	<entry>
+		<name>Wahlen in Deutschland</name>
+		<date>1917</date>
+		<!--image>accu_heaters_off.gif</image-->
+		<image>wahlen.gif</image>
+		<description>Die Nazis bekommen die meisten Stimmen.</description>
+	</entry>
+</timeline>

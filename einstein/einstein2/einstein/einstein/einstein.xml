@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timeline>
+<timeline name="einstein" title="Einsteins Leben">
+	<entry>
+		<name>Geburt</name>
+		<date>14. März 1879</date>
+		<image>geburt.gif</image>
+		<description> Einstein wird als erstes Kind der jüdischen Eheleute 
+			Einstein in Ulm geboren.</description>
+	</entry>
+	<entry>
+		<name>München</name>
+		<date>1880</date>
+		<image>muenchen.jpeg</image>
+		<description> Familie Einstein zieht nach München.</description>
+	</entry>
+	<entry>
+		<name>Luitpold</name>
+		<date>1888</date>
+		<image>luitpold.jpeg</image>
+		<description>Albert besucht das Gymnasium, verlässt es aber 1894 ohne 
+			Abschluss.</description>
+	</entry>
+	<entry>
+		<name>Universität Zürich</name>
+		<date>1896</date>
+		<image>eth.jpeg</image>
+		<description>Albert studiert Mathe und Physik auf Lehramt.</description>
+	</entry>
+	<entry>
+		<name>Patentamt</name>
+		<date>1901</date>
+		<image>patentamt.jpeg</image>
+		<description>Einstein arbeitet als technischer Experte und auch weiter 
+			auf dem Gebiet der theoretischen Physik.</description>
+	</entry>
+	<entry>
+		<name>Olympia-Akademie</name>
+		<date>1902</date>
+		<image>olympia-akademie.jpeg</image>
+		<description> Gründung der Olympia-Akademie mit Maurice Solovine und 
+			Conrad Habicht.</description>
+	</entry>
+	<entry>
+		<name>Portrait</name>
+		<date>1940</date>
+		<image>portrait.gif</image>
+		<description>Einstein stehen die Haare zu Berge.</description>
+	</entry>
+		<entry>
+		<name>Princeton</name>
+		<date>1948</date>
+		<image>princeton.jpeg</image>
+		<description>Albert arbeitet in New Jersey, USA.</description>
+	</entry>
+	
+</timeline>

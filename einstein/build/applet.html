@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "xhtml1-strict.dtd"-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Der Einstein-Collagist</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="einstein.js" type="text/javascript">@import "einstein.js";</script>
+	</head>
+	<body>
+		<div style="position: absolute; top: 0px; left: 0px;">
+			<img src="oben.gif" alt="oben" width="950" height="100" />
+		</div>
+		<div style="position: absolute; top: 100px; left: 0px;">
+			<img src="links.gif" alt="links" width="100" height="560"/>
+		</div>
+		<!-- Need Java 1.4.0 (or later) Plug-in to run this applet -->
+		<!-- MS IE (Microsoft Internet Explorer) -->
+		<div style="position: absolute; top: 100px; left: 100px;">
+			<object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" 
+				codebase='http://java.sun.com/products/plugin/autodl/jinstall-1_4-windows-i586.cab#Version=1,4,0,0' 
+				width="750" height="560" >
+				<param name="archive" value="classes.jar, data.jar" />
+				<param name="code" value="einstein.Main.class" />
+				<param name="codebase" value="./" />
+				<param name="type" 
+					value="application/x-java-applet;version=1.4" />
+				<param name="scriptable" value="false" />
+				<!-- my parameters -->
+				<param name="dataPath" value="data"/>
+				<param name="historyFile" value="history/history.xml"/>
+				<param name="einsteinFile" value="einstein/einstein.xml"/>
+				<param name="phpUpload" value="dummy.php"/>
+				<param name="sessionKey" value="123abc"/>
+				<param name="bgColor" value="9CC3F7"/>
+				<param name="color" value="cee3ff"/>
+				<param name="helpURL" value="help.html"/>
+				<!--[if !IE]> Mozilla/Netscape and its brethren -->
+				<object classid="java:einstein.Main" width="750" height="560" 
+					archive="classes.jar, data.jar" codebase="./">
+					<param name="dataPath" value="data"/>
+					<param name="historyFile" value="history/history.xml"/>
+					<param name="einsteinFile" value="einstein/einstein.xml"/>
+					<param name="phpUpload" value="dummy.php"/>
+					<param name="sessionKey" value="123abc"/>
+					<param name="bgColor" value="9CC3F7"/>
+					<param name="color" value="cee3ff"/>
+					<param name="helpURL" value="help.html"/>
+					<!-- no Java found -->
+					<p> SUN Java Plugin Version 1.4 (minimum) is required to 
+						start the Applet, but could not be found on your 
+						computer. Please check the <a 
+						href="javascript:onclick=openHelp();"> 
+						corresponding section </a>in the FAQ.</p>
+				</object>
+				<!-- <![endif]-->
+			</object>
+		</div>
+		<div style="position: absolute; top: 100px; left: 850px;">
+			<img src="rechts.gif" alt="rechts" width="100" height="560"/>
+		</div>
+		<div style="position: absolute; top: 660px; left: 0px;">
+			<img src="unten.gif" alt="unten" width="950" height="100"/>
+		</div>
+		<div style="position: absolute; top: 70px; left: 860px; z-index:1;">
+			<a href="javascript:onclick=openHelp();">
+				<img src="fragezeichen.gif" alt="Hilfeseite &ouml;ffnen" 
+					width="15" height="30" />
+			</a>
+		</div>
+	</body>
+</html>

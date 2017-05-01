@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timeline>
+<timeline name="einstein" width="370">
+	<chapter height="2738" name="neudat">
+		<text x="131" y="5" file="1879_1894.gif"/>
+		<image x="108" y="55" file="karte.gif" name="Deutschland"/>
+		<image x="1" y="60" file="1_kaiser_wilhelm.gif" name="Kaiser Wilhelm"/>
+		<text x="86" y="221" file="1879.gif"/>
+		<image x="221" y="313" file="1_einstein_als_kind.gif" 
+			name="Einstein als Kind"/>
+		<image x="163" y="531" file="einsteindavidstern.gif" name="Davidstern"/>
+		<text x="16" y="502" file="Einsteingeburt.gif"/>
+		<image x="132" y="585" file="Vatervoneinstein.gif" 
+			name="Einsteins Vater"/>
+		<image x="273" y="578" file="muttereinstein.gif" 
+			name="Einsteins Mutter"/>
+		<text x="138" y="728" file="UmzugMuenchen.gif"/>
+		<text x="165" y="800" file="1881.gif"/>
+		<image x="257" y="804" file="maja.gif" name="Albert und Maja"/>
+		<text x="4" y="899" file="Majageburt.gif"/>
+		<image x="0" y="995" file="pickel.gif" name="Pickelhaube"/>
+		<image x="108" y="1014" file="zimmer.gif" name="Klassenzimmer"/>
+		<text x="2" y="1132" file="Deutschereich.gif"/>
+		<image x="157" y="1226" file="einsteinklasse.gif" name="Mitschüler"/>
+		<text x="167" y="1357" file="AlbertsSchulklasse.gif"/>
+		<text x="5" y="1432" file="Gym.gif"/>
+		<text x="163" y="1427" file="1888.gif"/>
+		<image x="177" y="1556" file="buecher.gif" name="Bücher"/>
+		<image x="292" y="1532" file="lustigesmaennchen.gif" 
+			name="Lustiges Männchen"/>
+		<text x="6" y="1652" file="Unterricht.gif"/>
+		<text x="74" y="1749" file="Mailand.gif"/>
+		<text x="51" y="1835" file="1895_1905.gif"/>
+		<text x="20" y="1871" file="studium.gif"/>
+		<text x="175" y="1965" file="1896.gif"/>
+		<image x="125" y="1990" file="eidgenoessisch.gif" name="TH Zürich"/>
+		<text x="113" y="2081" file="Abitur.gif"/>
+		<text x="151" y="2184" file="1898.gif"/>
+		<image x="10" y="2214" file="curie.gif" name="Ehepaar Curie"/>
+		<text x="6" y="2328" file="1898franzehepaar.gif"/>
+		<image x="193" y="2437" file="milevaundalbert.gif" 
+			name="Mileva und Albert"/>
+		<text x="133" y="2502" file="Einsteinverliebt.gif"/>
+		<text x="13" y="2603" file="Einsteindiplom.gif"/>
+		<text x="164" y="2588" file="1900.gif"/>
+	</chapter>
+	<chapter height="11110" name="neudat">
+		<text x="150" y="11" file="1901.gif"/>
+		<image x="236" y="6" file="schweiz.gif" name="Die Schweiz"/>
+		<text x="2" y="68" file="Schweizer.gif"/>
+		<text x="32" y="137" file="OlympiaAkademie.gif"/>
+		<text x="172" y="284" file="diskussion.gif"/>
+		<image x="197" y="348" file="physik.gif" name="Physik"/>
+		<image x="10" y="323" file="Algebrakarikatur.gif" name="Algebra"/>
+		<text x="36" y="484" file="Mathematik.gif"/>
+		<image x="237" y="473" file="Astronomie.gif" name="Astronomie"/>
+		<text x="166" y="575" file="philosophie.gif"/>
+		<image x="154" y="642" file="patentamt.gif" 
+			name="Das Berner Patentamt"/>
+		<text x="13" y="780" file="bern.gif"/>
+		<text x="176" y="893" file="1903.gif"/>
+		<image x="23" y="872" file="image030.gif" name="Radioaktivität"/>
+		<text x="0" y="1000" file="Radioaktivitaet.gif"/>
+		<image x="234" y="1044" file="image031.gif" name="Mileva"/>
+		<text x="117" y="1142" file="EinsteinMileva.gif"/>
+		<text x="68" y="1228" file="1905_1930.gif"/>
+		<text x="164" y="1287" file="1905_.gif"/>
+		<image x="231" y="1301" file="image033.gif" name="Einstein 1905"/>
+		<text x="38" y="1432" file="1905.gif"/>
+		<image x="162" y="1556" file="einsteinformel.gif" name="E=mc²"/>
+		<text x="9" y="1693" file="Emc.gif"/>
+		<image x="232" y="1786" file="emcbild.gif" name="Energie"/>
+		<text x="62" y="1851" file="Emc2.gif"/>
+		<text x="2" y="1966" file="diephysikerdachten.gif"/>
+		<image x="17" y="2069" file="sonneerde.gif" name="Sonne und Erde"/>
+		<image x="172" y="2142" file="image043.gif" name="Relativer Spiegel"/>
+		<text x="7" y="2180" file="Spiegelbild.gif"/>
+		<text x="19" y="2352" file="spez.rel.gif"/>
+		<text x="70" y="2486" file="lichtgeschwindigkeitkonstant.gif"/>
+		<image x="214" y="2506" file="lichtgluehbirne.gif" name="Glühbirne"/>
+		<text x="6" y="2581" file="Lichtgeschwindigkeit.gif"/>
+		<image x="90" y="2662" file="entfernungmonderde.gif" 
+			name="Mond und Erde"/>
+		<text x="1" y="2784" file="entfernungmonderde1.gif"/>
+		<text x="1" y="2880" file="Astronaut.gif"/>
+		<text x="15" y="3066" file="Raumundzeit.gif"/>
+		<image x="250" y="3020" file="gluehbirne.gif" name="Birnemann"/>
+		<text x="1" y="3116" file="Licht.gif"/>
+		<text x="68" y="3258" file="Gleichzeitig.gif"/>
+		<image x="55" y="3304" file="zuginbewegung.gif" name="Zug in Bewegung"/>
+		<text x="1" y="3462" file="zug.gif"/>
+		<image x="54" y="3565" file="zugin2.gif" name="Zug fährt weiter"/>
+		<text x="2" y="3692" file="zug2.gif"/>
+		<text x="158" y="3866" file="1910.gif"/>
+		<text x="4" y="3898" file="Rutherfordmodell.gif"/>
+		<image x="38" y="3990" file="rutherfordbild.gif" 
+			name="Rutherfordmodell"/>
+		<text x="156" y="4130" file="1911.gif"/>
+		<image x="16" y="4144" file="image056.gif" 
+			name="Gegründete Gesellschaft"/>
+		<text x="12" y="4237" file="stiftung.gif"/>
+		<text x="158" y="4338" file="1914.gif"/>
+		<text x="80" y="4361" file="bginn1wk.gif"/>
+		<image x="8" y="4417" file="wkkarte.gif" name="1. Weltkrieg"/>
+		<text x="140" y="4548" file="zitateinstein.gif"/>
+		<image x="32" y="4624" file="zitatbild.gif" name="Pazifismus"/>
+		<text x="162" y="4768" file="1916.gif"/>
+		<text x="8" y="4802" file="AllgemeineRel.gif"/>
+		<image x="228" y="4904" file="newton.gif" name="Newton und der Apfel"/>
+		<text x="15" y="5002" file="Schwerkraft.gif"/>
+		<text x="1" y="5116" file="erdeRaumschiff.gif"/>
+		<image x="41" y="5182" file="gravitationsskizze.gif" name="Raumschiff"/>
+		<text x="6" y="5313" file="erdeRaumschiff2.gif"/>
+		<image x="63" y="5392" file="innenraumraumschiff.gif" 
+			name="Raumschiff innen"/>
+		<image x="130" y="5522" file="raumkruemmungsbild.gif" 
+			name="Raumkrümmung"/>
+		<text x="81" y="5588" file="Raumkruemmung.gif"/>
+		<text x="126" y="5667" file="ablenkunglicht.gif"/>
+		<image x="60" y="5724" file="lichtablenkung.gif" 
+			name="Ablenkung des Lichts"/>
+		<image x="0" y="5954" file="sonnenfinsternis.gif" 
+			name="Sonnenfinsternis"/>
+		<text x="19" y="5965" file="sonnenfin.gif"/>
+		<text x="167" y="6343" file="1919.gif"/>
+		<image x="224" y="6354" file="image073.gif" name="Albert und Elsa"/>
+		<text x="2" y="6455" file="EinsteinElsa.gif"/>
+		<text x="153" y="6592" file="1922.gif"/>
+		<text x="129" y="6624" file="Nobelpreis.gif"/>
+		<text x="158" y="6703" file="1932.gif"/>
+		<image x="1" y="6729" file="deutschlandwahl.gif" 
+			name="Wahlen in Deutschland"/>
+		<text x="6" y="6904" file="Wahlen1932.gif"/>
+		<image x="31" y="7006" file="image084.gif" 
+			name="Völkischer Beobachter"/>
+		<text x="14" y="7107" file="Hitlermacht.gif"/>
+		<text x="52" y="7224" file="1933_1955.gif"/>
+		<image x="248" y="7286" file="image085.gif" name="Emigration"/>
+		<text x="94" y="7352" file="USAemigr.gif"/>
+		<image x="142" y="7446" file="einsteininprinceton.jpg" 
+			name="Einstein in Princeton"/>
+		<text x="106" y="7622" file="Princeton.gif"/>
+		<text x="162" y="7730" file="1938.gif"/>
+		<text x="22" y="7746" file="Kernspaltug.gif"/>
+		<image x="5" y="7846" file="spaltunguran.gif" name="Atomspaltung"/>
+		<image x="94" y="8132" file="image091.gif" name="Uran"/>
+		<image x="34" y="8298" file="emcschrift.gif" name="Uran"/>
+		<text x="38" y="8328" file="Hahn.gif"/>
+		<text x="156" y="8491" file="1939_.gif"/>
+		<text x="64" y="8507" file="1939.gif"/>
+		<text x="155" y="8665" file="1940_.gif"/>
+		<text x="15" y="8692" file="Atombombe.gif"/>
+		<image x="29" y="8786" file="image095.gif" name="Die Atombombe"/>
+		<text x="22" y="8883" file="1940.gif"/>
+		<image x="33" y="9039" file="usaflag.gif" name="Sternenbanner"/>
+		<image x="194" y="9020" file="image097.gif" name="Albert mit Haaren"/>
+		<text x="122" y="9167" file="UsStaatbuergerschaft.gif"/>
+		<text x="171" y="9277" file="1955.gif"/>
+		<text x="149" y="9296" file="einsteintod.gif"/>
+		<text x="19" y="9413" file="wurdevieles.gif"/>
+		<text x="88" y="9490" file="schwarzeloecher.gif"/>
+		<image x="0" y="9551" file="blauesloch.jpg" name="Blaues Loch"/>
+		<image x="0" y="9948" file="schwarzlochbild.jpg" name="Schwarzes Loch"/>
+		<text x="84" y="10369" file="sternennebel.gif"/>
+		<image x="0" y="10432" file="sternnebelbild.jpg" name="Sternennebel"/>
+		<text x="86" y="10841" file="zufall1.gif"/>
+		<image x="234" y="10891" file="wuerfel.gif" name="Gott würfelt nicht"/>
+		<text x="0" y="10990" file="Zufall.gif"/>
+	</chapter>
+</timeline>
