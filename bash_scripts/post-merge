@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# ./git/hooks/post-merge
+# this script copies the file tree from a git repository 
+# to the web server directory and replaces a <lastmodified/> tag
+# in any html file by the last modification date of that file. 
+
+# path to the web server directory
+www=/var/www/virtual/kinnla/
+
+# replace file tree on the web server with the one from the git repository
+rm -r ${www}html
+cp -r html ${www}
+
+# replace <lastmodified/> with the date from the corresponding file in the repo
+find ${www} -type f -iname "*.html" -print0 | while IFS= read -r -d $'\0' file; do
+  now=`date -r "${file/$www/}"`
+  sed -i -e "s/<lastmodified\/>/Last modified on $now/" "$file"
+done
