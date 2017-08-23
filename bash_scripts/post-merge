@@ -8,12 +8,15 @@
 # path to the web server directory
 www=/var/www/virtual/kinnla/
 
+# String after which the date shall be inserted
+lastmodified='Last modified on '
+
 # replace file tree on the web server with the one from the git repository
 rm -r ${www}html
 cp -r html ${www}
 
 # replace <lastmodified/> with the date from the corresponding file in the repo
 find ${www} -type f -iname "*.html" -print0 | while IFS= read -r -d $'\0' file; do
-  now=`date -r "${file/$www/}"`
-  sed -i -e "s/<lastmodified\/>/Last modified on $now/" "$file"
+  now=`date -r "${file/$www/}"` # strip start of the path
+  sed -i -e "s/$lastmodified/$lastmodified$now/" "$file"
 done
