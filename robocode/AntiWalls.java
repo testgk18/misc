@@ -8,7 +8,7 @@
 package myrobot;
 
 import robocode.*;
-import java.lang.Math;
+import java.awt.*;
 
 /**
  * AntiWalls - a sample robot by kinnla, 
